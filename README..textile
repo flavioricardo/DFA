@@ -1,0 +1,7 @@
+h2. Deterministic finite-state machine
+
+In the theory of computation and automata theory, a deterministic finite state machine—also known as deterministic finite automaton (DFA)—is a finite state machine accepting finite strings of symbols. For each state, there is a transition arrow leading out to a next state for each symbol. Upon reading a symbol, a DFA jumps deterministically from a state to another by following the transition arrow. Deterministic means that there is only one outcome (i.e. move to next state when the symbol matches (S0 -> S1) or move back to the same state (S0 -> S0)). A DFA has a start state (denoted graphically by an arrow coming in from nowhere) where computations begin, and a set of accept states (denoted graphically by a double circle) which help define when a computation is successful. "[Source]":http://en.wikipedia.org/wiki/Deterministic_finite-state_machine
+
+h2. Disclaimer
+
+Work done for the academic discipline of LFA Course of Computer Science Faculty of Campo Grande in 2011. The same can be used as a source of reference. Before running the automaton, rename files an entry for "entrada.in."
